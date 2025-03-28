@@ -1,0 +1,1316 @@
+[
+  {
+    "blog": "Google",
+    "title": "Unlocking bonus worlds with Gemini for the Google I/O puzzle",
+    "link": "https://developers.googleblog.com/en/unlocking-bonus-worlds-with-gemini-for-the-google-io-puzzle/",
+    "author": "Unknown",
+    "categories": "N/A",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "Google",
+    "title": "Gemma 3 on mobile and web with Google AI Edge",
+    "link": "https://developers.googleblog.com/en/gemma-3-on-mobile-and-web-with-google-ai-edge/",
+    "author": "Unknown",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Mobile"
+  },
+  {
+    "blog": "Google",
+    "title": "Introducing Gemma 3: The Developer Guide",
+    "link": "https://developers.googleblog.com/en/introducing-gemma3/",
+    "author": "Unknown",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Software Engineering"
+  },
+  {
+    "blog": "AWS",
+    "title": "AWS Weekly Roundup: Omdia recognition, Amazon Bedrock RAG evaluation, International Women’s Day events, and more (March 24, 2025)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-omdia-recognition-amazon-bedrock-rag-evaluation-international-womens-day-events-and-more-march-24-2025/",
+    "author": "Betty Zheng (郑予彬)",
+    "publishedDate": "Mon, 24 Mar 2025 17:15:01 +0000",
+    "categories": "Amazon Bedrock Guardrails, Amazon Bedrock Knowledge Bases, Amazon Nova, Amazon Q, Amazon Redshift, Amazon SageMaker, Amazon SageMaker Lakehouse, Announcements, Artificial Intelligence, AWS WAF, Launch, News, Week in Review",
+    "image": null,
+    "topic": "Cloud"
+  },
+  {
+    "blog": "AWS",
+    "title": "AWS Weekly Roundup: AWS Pi Day, Amazon Bedrock multi-agent collaboration, Amazon SageMaker Unified Studio, Amazon S3 Tables, and more",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-pi-day-amazon-bedrock-multi-agent-collaboration-amazon-sagemaker-unified-studio-amazon-s3-tables-and-more/",
+    "author": "Prasad Rao",
+    "publishedDate": "Mon, 17 Mar 2025 16:36:43 +0000",
+    "categories": "Amazon Bedrock, Amazon Q Developer, Amazon SageMaker Lakehouse, Amazon SageMaker Unified Studio, Amazon Simple Storage Service (S3), Announcements, Launch, News, Week in Review",
+    "image": null,
+    "topic": "Cloud"
+  },
+  {
+    "blog": "AWS",
+    "title": "AWS Pi Day 2025: Data foundation for analytics and AI",
+    "link": "https://aws.amazon.com/blogs/aws/aws-pi-day-data-foundation-for-analytics-and-ai/",
+    "author": "Sébastien Stormacq",
+    "publishedDate": "Fri, 14 Mar 2025 15:04:22 +0000",
+    "categories": "Amazon Bedrock, Amazon Q Developer, Amazon SageMaker, Amazon Simple Storage Service (S3), Analytics, Announcements, Artificial Intelligence, Featured, Storage",
+    "image": null,
+    "topic": "Cloud"
+  },
+  {
+    "blog": "Meta",
+    "title": "Building multimodal AI for Ray-Ban Meta glasses",
+    "link": "https://engineering.fb.com/2025/03/04/virtual-reality/building-multimodal-ai-for-ray-ban-meta-glasses/",
+    "author": "Unknown",
+    "publishedDate": "Tue, 04 Mar 2025 21:24:18 +0000",
+    "categories": "AI Research, ML Applications, Virtual Reality, Meta Tech Podcast",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "Meta",
+    "title": "A case for QLC SSDs in the data center",
+    "link": "https://engineering.fb.com/2025/03/04/data-center-engineering/a-case-for-qlc-ssds-in-the-data-center/",
+    "author": "Unknown",
+    "publishedDate": "Tue, 04 Mar 2025 17:00:26 +0000",
+    "categories": "Data Center Engineering",
+    "image": null,
+    "topic": "Cloud"
+  },
+  {
+    "blog": "Meta",
+    "title": "How Meta is translating its Java codebase to Kotlin",
+    "link": "https://engineering.fb.com/2025/02/25/android/how-meta-is-translating-its-java-codebase-to-kotlin/",
+    "author": "Unknown",
+    "publishedDate": "Tue, 25 Feb 2025 19:00:59 +0000",
+    "categories": "Android, DevInfra, Meta Tech Podcast",
+    "image": null,
+    "topic": "Backend"
+  },
+  {
+    "blog": "Microsoft Dev",
+    "title": "Securing Developer Tools with Authentication Brokers",
+    "link": "https://devblogs.microsoft.com/blog/securing-developer-tools-with-authentication-brokers",
+    "author": "Den Delimarsky",
+    "publishedDate": "Wed, 19 Mar 2025 18:30:30 +0000",
+    "categories": "Security, Entra ID, Web Account Manager",
+    "image": null,
+    "topic": "Security"
+  },
+  {
+    "blog": "Microsoft Dev",
+    "title": "Getting the most out of Azure DevOps and GitHub",
+    "link": "https://devblogs.microsoft.com/blog/getting-the-most-out-of-azure-devops-and-github",
+    "author": "Aaron Hallberg",
+    "publishedDate": "Tue, 19 Nov 2024 13:30:53 +0000",
+    "categories": "Azure DevOps, GitHub, GitHub Copilot",
+    "image": "https://devblogs.microsoft.com/wp-content/uploads/2024/11/boards-github-short-demo.mp4",
+    "topic": "DevOps"
+  },
+  {
+    "blog": "Microsoft Dev",
+    "title": "Software is a team sport: Building the future of software development together",
+    "link": "https://devblogs.microsoft.com/blog/building-the-future-of-software-development-together",
+    "author": "Amanda Silver, Mario Rodriguez",
+    "publishedDate": "Mon, 18 Nov 2024 17:00:08 +0000",
+    "categories": "Azure, GitHub, Visual Studio, Azure DevOps, GitHub Advanced Security, GitHub Copilot, Visual Studio Code",
+    "image": "https://devblogs.microsoft.com/wp-content/uploads/2024/11/speak.mp4",
+    "topic": "Software Engineering"
+  },
+  {
+    "blog": "Cisco Tech Blog",
+    "title": "Believe and Achieve: Cisco and Spencer Wood at Adaptive Spirit",
+    "link": "https://blogs.cisco.com/our-corporate-purpose/cisco-and-spencer-wood-adaptive-spirit",
+    "author": "John Dorval",
+    "publishedDate": "Mon, 24 Mar 2025 16:00:29 +0000",
+    "categories": "Our Corporate Purpose, Accessibility, Cisco Purpose, Social Impact and Inclusion Office",
+    "image": null,
+    "topic": "Software Engineering"
+  },
+  {
+    "blog": "Cisco Tech Blog",
+    "title": "Cisco Co-Authors Update to the NIST Adversarial Machine Learning Taxonomy",
+    "link": "https://blogs.cisco.com/security/cisco-co-authors-update-to-nist-adversarial-machine-learning-taxonomy",
+    "author": "Hyrum Anderson",
+    "publishedDate": "Mon, 24 Mar 2025 12:00:00 +0000",
+    "categories": "Security, Machine Learning (ML), NIST, Security for AI",
+    "image": null,
+    "topic": "Security"
+  },
+  {
+    "blog": "Cisco Tech Blog",
+    "title": "Evolving Together: The Next Chapter in Our Partner Journey",
+    "link": "https://blogs.cisco.com/partner/evolving-together-the-next-chapter-in-our-partner-journey",
+    "author": "Rodney Clark",
+    "publishedDate": "Fri, 21 Mar 2025 15:00:55 +0000",
+    "categories": "Partner, 360 Partner Program, Cisco 360 Partner Program, Cisco Partner Incentive, Cisco Partners, Cisco Services Partner Program, Customer Assessment Incentive, profitability, seller rewards, Value Incentive Program (VIP)",
+    "image": null,
+    "topic": "Software Engineering"
+  },
+  {
+    "blog": "NVIDIA Tech Blog",
+    "title": "‘Assassin’s Creed Shadows’ Emerges From the Mist on GeForce NOW",
+    "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-assassins-creed-shadows/",
+    "author": "GeForce NOW Community",
+    "publishedDate": "Thu, 20 Mar 2025 13:00:38 +0000",
+    "categories": "Gaming, Cloud Gaming, GeForce NOW",
+    "image": null,
+    "topic": "Cloud"
+  },
+  {
+    "blog": "NVIDIA Tech Blog",
+    "title": "EPRI, NVIDIA and Collaborators Launch Open Power AI Consortium to Transform the Future of Energy",
+    "link": "https://blogs.nvidia.com/blog/open-power-ai-consortium/",
+    "author": "Marc Spieler",
+    "publishedDate": "Thu, 20 Mar 2025 12:00:41 +0000",
+    "categories": "Data Center, Software, Artificial Intelligence, Energy, GTC 2025, Open Source",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "NVIDIA Tech Blog",
+    "title": "GTC 2025 – Announcements and Live Updates",
+    "link": "https://blogs.nvidia.com/blog/nvidia-keynote-at-gtc-2025-ai-news-live-updates/",
+    "author": "NVIDIA Writers",
+    "publishedDate": "Thu, 20 Mar 2025 10:00:05 +0000",
+    "categories": "Corporate, Artificial Intelligence, Events, GTC 2025",
+    "image": "https://blogs.nvidia.com/wp-content/uploads/2025/03/trim-art-video.mp4",
+    "topic": "AI"
+  },
+  {
+    "blog": "Adobe Tech Blog",
+    "title": "Great moments in document history: Reimagining the Declaration of Independence as a PDF",
+    "link": "https://blog.adobe.com/en/publish/2022/07/01/great-moments-in-document-history-reimagining-the-declaration-of-independence-as-pdf",
+    "author": "Unknown",
+    "publishedDate": "2022-07-01T00:00:00.000Z",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Software Engineering"
+  },
+  {
+    "blog": "Adobe Tech Blog",
+    "title": "Sakshi Sachdev on being fueled by challenges in the technical realm",
+    "link": "https://blog.adobe.com/en/publish/2022/06/30/sakshi-sachdev-fuelled-by-challenges-in-tech",
+    "author": "Unknown",
+    "publishedDate": "2022-06-30T00:00:00.000Z",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Software Engineering"
+  },
+  {
+    "blog": "Adobe Tech Blog",
+    "title": "Using certified digital signatures on documents to increase trust in online information",
+    "link": "https://blog.adobe.com/en/publish/2022/06/30/using-certified-digital-signatures-on-documents-to-increase-trust-in-online-information",
+    "author": "Unknown",
+    "publishedDate": "2022-06-30T00:00:00.000Z",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Security"
+  },
+  {
+    "blog": "Salesforce Engineering",
+    "title": "AI-Driven Relationship Generation: Transforming Data Modeling in 50+ Tableau Next & Data Cloud Environments",
+    "link": "https://engineering.salesforce.com/ai-driven-relationship-generation-transforming-data-modeling-in-50-tableau-next-data-cloud-environments/",
+    "author": "Scott Nyberg",
+    "publishedDate": "Thu, 20 Mar 2025 18:37:48 +0000",
+    "categories": "Artificial Intelligence",
+    "image": null,
+    "topic": "Data Science"
+  },
+  {
+    "blog": "Salesforce Engineering",
+    "title": "Building Agentforce for Flow: How AI Cut Execution Time by 99%",
+    "link": "https://engineering.salesforce.com/building-agentforce-for-flow-how-ai-cut-execution-time-by-99/",
+    "author": "Scott Nyberg",
+    "publishedDate": "Mon, 17 Mar 2025 04:54:00 +0000",
+    "categories": "Artificial Intelligence",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "Salesforce Engineering",
+    "title": "AI-Powered Personalization in Under 100ms: Optimizing Real-Time Decisioning at Scale",
+    "link": "https://engineering.salesforce.com/ai-powered-personalization-in-under-100ms-optimizing-real-time-decisioning-at-scale/",
+    "author": "Scott Nyberg",
+    "publishedDate": "Wed, 12 Mar 2025 16:13:47 +0000",
+    "categories": "Artificial Intelligence",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "Netflix Tech",
+    "title": "HDR10+ Now Streaming on Netflix",
+    "link": "https://netflixtechblog.com/hdr10-now-streaming-on-netflix-c9ab1f4bd72b?source=rss----2615bd06b42e---4",
+    "author": "Netflix Technology Blog",
+    "publishedDate": "Mon, 24 Mar 2025 18:39:15 GMT",
+    "categories": "innovation, netflix, streaming, hdr, av1",
+    "image": null,
+    "topic": "Mobile"
+  },
+  {
+    "blog": "Netflix Tech",
+    "title": "Title Launch Observability at Netflix Scale",
+    "link": "https://netflixtechblog.com/title-launch-observability-at-netflix-scale-8efe69ebd653?source=rss----2615bd06b42e---4",
+    "author": "Netflix Technology Blog",
+    "publishedDate": "Wed, 05 Mar 2025 01:24:53 GMT",
+    "categories": "system-design-concepts, netflix, software-engineering, observability",
+    "image": null,
+    "topic": "Software Engineering"
+  },
+  {
+    "blog": "Netflix Tech",
+    "title": "Introducing Impressions at Netflix",
+    "link": "https://netflixtechblog.com/introducing-impressions-at-netflix-e2b67c88c9fb?source=rss----2615bd06b42e---4",
+    "author": "Netflix Technology Blog",
+    "publishedDate": "Sat, 15 Feb 2025 01:13:20 GMT",
+    "categories": "distributed-systems, data, data-engineering",
+    "image": null,
+    "topic": "Data Science"
+  },
+  {
+    "blog": "Red Hat Developer",
+    "title": "A demonstration of the Network Observability CLI",
+    "link": "https://developers.redhat.com/articles/2025/03/20/demonstration-network-observability-cli",
+    "author": "Julien Pinsonneau",
+    "publishedDate": "Thu, 20 Mar 2025 11:00:00 +0000",
+    "categories": "N/A",
+    "image": null,
+    "topic": "DevOps"
+  },
+  {
+    "blog": "Red Hat Developer",
+    "title": "7 new features in the Network Observability CLI 1.8",
+    "link": "https://developers.redhat.com/articles/2025/03/20/7-new-features-network-observability-cli-18",
+    "author": "Julien Pinsonneau",
+    "publishedDate": "Thu, 20 Mar 2025 11:00:00 +0000",
+    "categories": "N/A",
+    "image": null,
+    "topic": "DevOps"
+  },
+  {
+    "blog": "Red Hat Developer",
+    "title": "DPU-enabled networking with OpenShift and NVIDIA DPF",
+    "link": "https://developers.redhat.com/articles/2025/03/20/dpu-enabled-networking-openshift-and-nvidia-dpf",
+    "author": "Sagi Zigmon, Igal Tsoiref",
+    "publishedDate": "Thu, 20 Mar 2025 07:00:00 +0000",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Cloud"
+  },
+  {
+    "blog": "Spotify Engineering",
+    "title": "Building Confidence: A Case Study in How to Create Confidence Scores for GenAI Applications",
+    "link": "https://engineering.atspotify.com/2024/12/building-confidence-a-case-study-in-how-to-create-confidence-scores-for-genai-applications/",
+    "author": "Spotify Engineering",
+    "publishedDate": "Thu, 12 Dec 2024 17:56:03 +0000",
+    "categories": "Data, Data Science, Machine Learning",
+    "image": null,
+    "topic": "Data Science"
+  },
+  {
+    "blog": "Spotify Engineering",
+    "title": "Congratulations to the Recipients of the 2024 Spotify FOSS Fund",
+    "link": "https://engineering.atspotify.com/2024/11/congratulations-to-the-recipients-of-the-2024-spotify-foss-fund/",
+    "author": "Spotify Engineering",
+    "publishedDate": "Mon, 25 Nov 2024 14:00:00 +0000",
+    "categories": "Developer Tools, Open Source, People, engineering leadership",
+    "image": null,
+    "topic": "Software Engineering"
+  },
+  {
+    "blog": "Spotify Engineering",
+    "title": "How We Generated Millions of Content Annotations",
+    "link": "https://engineering.atspotify.com/2024/10/how-we-generated-millions-of-content-annotations/",
+    "author": "Spotify Engineering",
+    "publishedDate": "Mon, 21 Oct 2024 14:19:58 +0000",
+    "categories": "Data, Machine Learning, machine learning",
+    "image": null,
+    "topic": "Data Science"
+  },
+  {
+    "blog": "Cloudflare Engineering",
+    "title": "Security Week 2025: in review",
+    "link": "https://blog.cloudflare.com/security-week-2025-wrap-up/",
+    "author": "Kim Blight",
+    "publishedDate": "Mon, 24 Mar 2025 13:05:00 GMT",
+    "categories": "Security Week, Application Security, Zero Trust, Email Security, AI",
+    "image": null,
+    "topic": "Security"
+  },
+  {
+    "blog": "Cloudflare Engineering",
+    "title": "New URLPattern API brings improved pattern matching to Node.js and Cloudflare Workers",
+    "link": "https://blog.cloudflare.com/improving-web-standards-urlpattern/",
+    "author": "Yagiz Nizipli",
+    "publishedDate": "Mon, 24 Mar 2025 13:00:00 GMT",
+    "categories": "Node.js, JavaScript, Cloudflare Workers, Standards",
+    "image": null,
+    "topic": "Backend"
+  },
+  {
+    "blog": "Cloudflare Engineering",
+    "title": "Detecting sensitive data and misconfigurations in AWS and GCP with Cloudflare One",
+    "link": "https://blog.cloudflare.com/scan-cloud-dlp-with-casb/",
+    "author": "Alex Dunbrack",
+    "publishedDate": "Fri, 21 Mar 2025 13:10:00 GMT",
+    "categories": "Security Week, Cloudflare One, CASB, DLP, AWS, Google Cloud, Zero Trust",
+    "image": null,
+    "topic": "Security"
+  },
+  {
+    "blog": "Slack Engineering",
+    "title": "How we built enterprise search to be secure and private",
+    "link": "https://slack.engineering/how-we-built-enterprise-search-to-be-secure-and-private/",
+    "author": "Ian Hoffman",
+    "publishedDate": "Fri, 07 Mar 2025 01:14:37 +0000",
+    "categories": "Uncategorized",
+    "image": null,
+    "topic": "Software Engineering"
+  },
+  {
+    "blog": "Slack Engineering",
+    "title": "Automated Accessibility Testing at Slack",
+    "link": "https://slack.engineering/automated-accessibility-testing-at-slack/",
+    "author": "nstormann",
+    "publishedDate": "Tue, 07 Jan 2025 20:46:20 +0000",
+    "categories": "Uncategorized, a11y, accessibility, automation-testing, testing",
+    "image": null,
+    "topic": "Software Engineering"
+  },
+  {
+    "blog": "Slack Engineering",
+    "title": "Migration Automation: Easing the Jenkins → GHA shift with help from AI",
+    "link": "https://slack.engineering/migration-automation-easing-the-jenkins-%e2%86%92-gha-shift-with-help-from-ai/",
+    "author": "Zhengyu Shen",
+    "publishedDate": "Mon, 16 Dec 2024 09:00:03 +0000",
+    "categories": "Uncategorized, ci-cd, devops, devtools, machine-learning",
+    "image": null,
+    "topic": "DevOps"
+  },
+  {
+    "blog": "GitHub Blog",
+    "title": "A maintainer’s guide to vulnerability disclosure: GitHub tools to make it simple",
+    "link": "https://github.blog/security/vulnerability-research/a-maintainers-guide-to-vulnerability-disclosure-github-tools-to-make-it-simple/",
+    "author": "Nancy Gariché",
+    "publishedDate": "Mon, 24 Mar 2025 16:00:33 +0000",
+    "categories": "Security, Supply chain security, Vulnerability research, CVE integration, cybersecurity, GitHub Security Lab, GitHub Security Tools, open source security, private vulnerability reporting, security advisories, vulnerability disclosure",
+    "image": null,
+    "topic": "Security"
+  },
+  {
+    "blog": "GitHub Blog",
+    "title": "World Water Day: how GitHub Copilot is helping bring clean water to communities",
+    "link": "https://github.blog/open-source/world-water-day-how-github-copilot-is-helping-bring-clean-water-to-communities/",
+    "author": "Paull Young",
+    "publishedDate": "Thu, 20 Mar 2025 16:00:37 +0000",
+    "categories": "Open Source, community, social impact",
+    "image": null,
+    "topic": "Software Engineering"
+  },
+  {
+    "blog": "GitHub Blog",
+    "title": "Video: How to create checklists in Markdown for easier task tracking",
+    "link": "https://github.blog/developer-skills/github/video-how-to-create-checklists-in-markdown-for-easier-task-tracking/",
+    "author": "Cassidy Williams",
+    "publishedDate": "Wed, 19 Mar 2025 17:06:07 +0000",
+    "categories": "Developer skills, GitHub, GitHub Task Lists, Markdown",
+    "image": null,
+    "topic": "Software Engineering"
+  },
+  {
+    "blog": "Etsy Engineering",
+    "title": "Adopting Jetpack Compose for Etsy’s Android App",
+    "link": "https://www.etsy.com/codeascraft/adopting-jetpack-compose-for-etsy39s-android-app?utm_source=OpenGraph&utm_medium=PageTools&utm_campaign=Share",
+    "author": "John Kalmi",
+    "publishedDate": "Tue, 28 Jan 2025 10:25:11 -0500",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Mobile"
+  },
+  {
+    "blog": "Etsy Engineering",
+    "title": "Machine Learning in Content Moderation at Etsy",
+    "link": "https://www.etsy.com/codeascraft/machine-learning-in-content-moderation-at-etsy?utm_source=OpenGraph&utm_medium=PageTools&utm_campaign=Share",
+    "author": "David Azcona",
+    "publishedDate": "Tue, 6 Aug 2024 07:15:03 -0400",
+    "categories": "N/A",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "Etsy Engineering",
+    "title": "Enhancing Cloud Usage Forecasting, Monitoring & Optimizing",
+    "link": "https://www.etsy.com/codeascraft/enhancing-cloud-usage-forecasting-monitoring--optimizing?utm_source=OpenGraph&utm_medium=PageTools&utm_campaign=Share",
+    "author": "Anthony Tambasco",
+    "publishedDate": "Mon, 17 Jun 2024 09:58:16 -0400",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Cloud"
+  },
+  {
+    "blog": "Lyft Engineering",
+    "title": "FacetController: How we made infrastructure changes at Lyft simple",
+    "link": "https://eng.lyft.com/facetcontroller-how-we-made-infrastructure-changes-at-lyft-simple-dab49f5b27c7?source=rss----25cd379abb8---4",
+    "author": "Miguel Molina",
+    "publishedDate": "Mon, 24 Feb 2025 15:48:48 GMT",
+    "categories": "kubernetes, deployment, k8s, infrastructure",
+    "image": null,
+    "topic": "DevOps"
+  },
+  {
+    "blog": "Lyft Engineering",
+    "title": "Using Marketplace Marginal Values to Address Interference Bias",
+    "link": "https://eng.lyft.com/using-marketplace-marginal-values-to-address-interference-bias-a11aff6e670f?source=rss----25cd379abb8---4",
+    "author": "Shima Nassiri",
+    "publishedDate": "Mon, 27 Jan 2025 18:49:50 GMT",
+    "categories": "interference, rideshare, network-effect, experimentation, marketplaces",
+    "image": null,
+    "topic": "Data Science"
+  },
+  {
+    "blog": "Lyft Engineering",
+    "title": "Cartography joins the CNCF",
+    "link": "https://eng.lyft.com/cartography-joins-the-cncf-6f6b7be099a7?source=rss----25cd379abb8---4",
+    "author": "Alex Chantavy",
+    "publishedDate": "Wed, 18 Dec 2024 17:20:44 GMT",
+    "categories": "software-engineering, security, open-source",
+    "image": null,
+    "topic": "Cloud"
+  },
+  {
+    "blog": "Mozilla Hacks",
+    "title": "Launching Interop 2025",
+    "link": "https://hacks.mozilla.org/2025/02/interop-2025/",
+    "author": "James Graham",
+    "publishedDate": "Thu, 13 Feb 2025 16:59:13 +0000",
+    "categories": "Featured Article, Firefox, Web Developers, Accessibility, browsers, firefox, interop, interoperability, storage, WebRTC",
+    "image": null,
+    "topic": "Frontend"
+  },
+  {
+    "blog": "Mozilla Hacks",
+    "title": "Introducing Uniffi for React Native: Rust-Powered Turbo Modules",
+    "link": "https://hacks.mozilla.org/2024/12/introducing-uniffi-for-react-native-rust-powered-turbo-modules/",
+    "author": "Mark Mayo",
+    "publishedDate": "Wed, 04 Dec 2024 19:38:01 +0000",
+    "categories": "Developer Tools, Featured Article, c++, firefox, react, rust",
+    "image": null,
+    "topic": "Mobile"
+  },
+  {
+    "blog": "Mozilla Hacks",
+    "title": "Llamafile v0.8.14: a new UI, performance gains, and more",
+    "link": "https://hacks.mozilla.org/2024/10/llamafile-v0-8-14-a-new-ui-performance-gains-and-more/",
+    "author": "Stephen Hood",
+    "publishedDate": "Wed, 16 Oct 2024 13:32:30 +0000",
+    "categories": "Featured Article, llamafile, open source",
+    "image": null,
+    "topic": "Frontend"
+  },
+  {
+    "blog": "Android Developers",
+    "title": "The Third Beta of Android 16",
+    "link": "http://android-developers.googleblog.com/2025/03/the-third-beta-of-android-16.html",
+    "author": "Unknown",
+    "publishedDate": "2025-03-13T18:00:00.000Z",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Mobile"
+  },
+  {
+    "blog": "Android Developers",
+    "title": "#TheAndroidShow: Multimodal for Gemini in Android Studio, news for gaming devs, the latest devices at MWC, XR and more!",
+    "link": "http://android-developers.googleblog.com/2025/03/winter-episode-theandroidshow.html",
+    "author": "Unknown",
+    "publishedDate": "2025-03-13T17:01:00.000Z",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Mobile"
+  },
+  {
+    "blog": "Android Developers",
+    "title": "Multimodal image attachment is now available for Gemini in Android Studio                                                                              ",
+    "link": "http://android-developers.googleblog.com/2025/03/multimodal-image-attachment-now-available-gemini-android-studio.html",
+    "author": "Unknown",
+    "publishedDate": "2025-03-13T17:00:00.001Z",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Mobile"
+  },
+  {
+    "blog": "Python Software Foundation",
+    "title": "PSF Distinguished Service Award Granted to Thomas Wouters",
+    "link": "https://pyfound.blogspot.com/2025/03/dsa-thomas-wouters.html",
+    "author": "Unknown",
+    "publishedDate": "2025-03-12T15:32:00.002Z",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Software Engineering"
+  },
+  {
+    "blog": "Python Software Foundation",
+    "title": "PSF Distinguished Service Award Granted to Van Lindberg",
+    "link": "https://pyfound.blogspot.com/2025/03/dsa-van-lindberg.html",
+    "author": "Unknown",
+    "publishedDate": "2025-03-11T15:53:00.000Z",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Software Engineering"
+  },
+  {
+    "blog": "Python Software Foundation",
+    "title": "PSF Distinguished Service Award Granted to Ewa Jodlowska",
+    "link": "https://pyfound.blogspot.com/2025/03/psf-dsa-ewa-jodlowska.html",
+    "author": "Unknown",
+    "publishedDate": "2025-03-06T13:40:00.000Z",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Software Engineering"
+  },
+  {
+    "blog": "DeepMind Blog",
+    "title": "Gemini Robotics brings AI into the physical world",
+    "link": "https://deepmind.google/discover/blog/gemini-robotics-brings-ai-into-the-physical-world/",
+    "author": "Unknown",
+    "publishedDate": "Wed, 12 Mar 2025 15:00:00 +0000",
+    "categories": "N/A",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "DeepMind Blog",
+    "title": "Experiment with Gemini 2.0 Flash native image generation",
+    "link": "https://deepmind.google/discover/blog/experiment-with-gemini-20-flash-native-image-generation/",
+    "author": "Unknown",
+    "publishedDate": "Wed, 12 Mar 2025 14:58:00 +0000",
+    "categories": "N/A",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "DeepMind Blog",
+    "title": "Introducing Gemma 3",
+    "link": "https://deepmind.google/discover/blog/introducing-gemma-3/",
+    "author": "Unknown",
+    "publishedDate": "Wed, 12 Mar 2025 08:00:00 +0000",
+    "categories": "N/A",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "MIT Technology Review",
+    "title": "The Download: the dangers of AI agents, and ChatGPT’s effects on our wellbeing",
+    "link": "https://www.technologyreview.com/2025/03/24/1113683/the-download-the-dangers-of-ai-agents-and-chatgpts-effects-on-our-wellbeing/",
+    "author": "Rhiannon Williams",
+    "publishedDate": "Mon, 24 Mar 2025 13:00:00 +0000",
+    "categories": "The Download",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "MIT Technology Review",
+    "title": "Why handing over total control to AI agents would be a huge mistake",
+    "link": "https://www.technologyreview.com/2025/03/24/1113647/why-handing-over-total-control-to-ai-agents-would-be-a-huge-mistake/",
+    "author": "Margaret Mitchell, Avijit Ghosh, Sasha Luccioni, Giada Pistilli",
+    "publishedDate": "Mon, 24 Mar 2025 10:55:21 +0000",
+    "categories": "Artificial intelligence, App",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "MIT Technology Review",
+    "title": "OpenAI has released its first research into how using ChatGPT affects people’s emotional well-being",
+    "link": "https://www.technologyreview.com/2025/03/21/1113635/openai-has-released-its-first-research-into-how-using-chatgpt-affects-peoples-emotional-wellbeing/",
+    "author": "Rhiannon Williams",
+    "publishedDate": "Fri, 21 Mar 2025 17:44:25 +0000",
+    "categories": "Artificial intelligence, App",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "Stanford AI Blog",
+    "title": "LinkBERT: Improving Language Model Training with Document Link",
+    "link": "/blog/linkbert/",
+    "author": "Unknown",
+    "publishedDate": "Tue, 31 May 2022 00:00:00 -0700",
+    "categories": "N/A",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "Stanford AI Blog",
+    "title": "Stanford AI Lab Papers and Talks at ACL 2022",
+    "link": "/blog/acl-2022/",
+    "author": "Unknown",
+    "publishedDate": "Wed, 25 May 2022 00:00:00 -0700",
+    "categories": "N/A",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "Stanford AI Blog",
+    "title": "Stanford AI Lab Papers and Talks at ICLR 2022",
+    "link": "/blog/iclr-2022/",
+    "author": "Unknown",
+    "publishedDate": "Mon, 25 Apr 2022 00:00:00 -0700",
+    "categories": "N/A",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "Google",
+    "title": "Introducing TxGemma: Open models to improve therapeutics development",
+    "link": "https://developers.googleblog.com/en/introducing-txgemma-open-models-improving-therapeutics-development/",
+    "author": "Unknown",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Data science"
+  },
+  {
+    "blog": "Google",
+    "title": "Unlocking bonus worlds with Gemini for the Google I/O puzzle",
+    "link": "https://developers.googleblog.com/en/unlocking-bonus-worlds-with-gemini-for-the-google-io-puzzle/",
+    "author": "Unknown",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Software engineering"
+  },
+  {
+    "blog": "Google",
+    "title": "Gemma 3 on mobile and web with Google AI Edge",
+    "link": "https://developers.googleblog.com/en/gemma-3-on-mobile-and-web-with-google-ai-edge/",
+    "author": "Unknown",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Mobile"
+  },
+  {
+    "blog": "AWS",
+    "title": "Detailed geographic information for all AWS Regions and Availability Zones is now available",
+    "link": "https://aws.amazon.com/blogs/aws/now-available-geography-information-for-all-aws-regions-and-availability-zones/",
+    "author": "Prasad Rao",
+    "publishedDate": "Tue, 25 Mar 2025 19:23:46 +0000",
+    "categories": "Announcements, Featured, Launch, News, Regions",
+    "image": null,
+    "topic": "Cloud"
+  },
+  {
+    "blog": "AWS",
+    "title": "AWS Weekly Roundup: Omdia recognition, Amazon Bedrock RAG evaluation, International Women’s Day events, and more (March 24, 2025)",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-omdia-recognition-amazon-bedrock-rag-evaluation-international-womens-day-events-and-more-march-24-2025/",
+    "author": "Betty Zheng (郑予彬)",
+    "publishedDate": "Mon, 24 Mar 2025 17:15:01 +0000",
+    "categories": "Amazon Bedrock Guardrails, Amazon Bedrock Knowledge Bases, Amazon Nova, Amazon Q, Amazon Redshift, Amazon SageMaker, Amazon SageMaker Lakehouse, Announcements, Artificial Intelligence, AWS WAF, Launch, News, Week in Review",
+    "image": null,
+    "topic": "Cloud"
+  },
+  {
+    "blog": "AWS",
+    "title": "AWS Weekly Roundup: AWS Pi Day, Amazon Bedrock multi-agent collaboration, Amazon SageMaker Unified Studio, Amazon S3 Tables, and more",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-pi-day-amazon-bedrock-multi-agent-collaboration-amazon-sagemaker-unified-studio-amazon-s3-tables-and-more/",
+    "author": "Prasad Rao",
+    "publishedDate": "Mon, 17 Mar 2025 16:36:43 +0000",
+    "categories": "Amazon Bedrock, Amazon Q Developer, Amazon SageMaker Lakehouse, Amazon SageMaker Unified Studio, Amazon Simple Storage Service (S3), Announcements, Launch, News, Week in Review",
+    "image": null,
+    "topic": "Cloud"
+  },
+  {
+    "blog": "Meta",
+    "title": "Building multimodal AI for Ray-Ban Meta glasses",
+    "link": "https://engineering.fb.com/2025/03/04/virtual-reality/building-multimodal-ai-for-ray-ban-meta-glasses/",
+    "author": "Unknown",
+    "publishedDate": "Tue, 04 Mar 2025 21:24:18 +0000",
+    "categories": "AI Research, ML Applications, Virtual Reality, Meta Tech Podcast",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "Meta",
+    "title": "A case for QLC SSDs in the data center",
+    "link": "https://engineering.fb.com/2025/03/04/data-center-engineering/a-case-for-qlc-ssds-in-the-data-center/",
+    "author": "Unknown",
+    "publishedDate": "Tue, 04 Mar 2025 17:00:26 +0000",
+    "categories": "Data Center Engineering",
+    "image": null,
+    "topic": "Cloud"
+  },
+  {
+    "blog": "Meta",
+    "title": "How Meta is translating its Java codebase to Kotlin",
+    "link": "https://engineering.fb.com/2025/02/25/android/how-meta-is-translating-its-java-codebase-to-kotlin/",
+    "author": "Unknown",
+    "publishedDate": "Tue, 25 Feb 2025 19:00:59 +0000",
+    "categories": "Android, DevInfra, Meta Tech Podcast",
+    "image": null,
+    "topic": "Backend"
+  },
+  {
+    "blog": "Microsoft Dev",
+    "title": "Securing Developer Tools with Authentication Brokers",
+    "link": "https://devblogs.microsoft.com/blog/securing-developer-tools-with-authentication-brokers",
+    "author": "Den Delimarsky",
+    "publishedDate": "Wed, 19 Mar 2025 18:30:30 +0000",
+    "categories": "Security, Entra ID, Web Account Manager",
+    "image": null,
+    "topic": "Security"
+  },
+  {
+    "blog": "Microsoft Dev",
+    "title": "Getting the most out of Azure DevOps and GitHub",
+    "link": "https://devblogs.microsoft.com/blog/getting-the-most-out-of-azure-devops-and-github",
+    "author": "Aaron Hallberg",
+    "publishedDate": "Tue, 19 Nov 2024 13:30:53 +0000",
+    "categories": "Azure DevOps, GitHub, GitHub Copilot",
+    "image": "https://devblogs.microsoft.com/wp-content/uploads/2024/11/boards-github-short-demo.mp4",
+    "topic": "DevOps"
+  },
+  {
+    "blog": "Microsoft Dev",
+    "title": "Software is a team sport: Building the future of software development together",
+    "link": "https://devblogs.microsoft.com/blog/building-the-future-of-software-development-together",
+    "author": "Amanda Silver, Mario Rodriguez",
+    "publishedDate": "Mon, 18 Nov 2024 17:00:08 +0000",
+    "categories": "Azure, GitHub, Visual Studio, Azure DevOps, GitHub Advanced Security, GitHub Copilot, Visual Studio Code",
+    "image": "https://devblogs.microsoft.com/wp-content/uploads/2024/11/speak.mp4",
+    "topic": "Software engineering"
+  },
+  {
+    "blog": "Cisco Tech Blog",
+    "title": "Striving for Sustainability: Meet Sripriya",
+    "link": "https://blogs.cisco.com/our-corporate-purpose/striving-for-sustainability-meet-sripriya",
+    "author": "Mary de Wysocki",
+    "publishedDate": "Wed, 26 Mar 2025 13:00:15 +0000",
+    "categories": "Our Corporate Purpose, Chief Sustainability Office, Cisco Purpose, environmental sustainability, Striving for Sustainability, Sustainability",
+    "image": null,
+    "topic": "Software engineering"
+  },
+  {
+    "blog": "Cisco Tech Blog",
+    "title": "Unlocking the Power of Network Telemetry for the US Public Sector",
+    "link": "https://blogs.cisco.com/government/unlocking-the-power-of-network-telemetry-for-the-us-public-sector",
+    "author": "Norman St. Laurent",
+    "publishedDate": "Wed, 26 Mar 2025 12:00:30 +0000",
+    "categories": "Government, Network Telemetry",
+    "image": null,
+    "topic": "Cloud"
+  },
+  {
+    "blog": "Cisco Tech Blog",
+    "title": "The Benefits of a Broad and Open Integration Ecosystem",
+    "link": "https://blogs.cisco.com/security/the-benefits-of-a-broad-and-open-integration-ecosystem",
+    "author": "Ben Greenbaum",
+    "publishedDate": "Wed, 26 Mar 2025 12:00:00 +0000",
+    "categories": "Security, Cisco Breach Protection, Cisco XDR, Integrations, Security Operations Center SOC, XDR",
+    "image": null,
+    "topic": "Security"
+  },
+  {
+    "blog": "NVIDIA Tech Blog",
+    "title": "GTC 2025 – Announcements and Live Updates",
+    "link": "https://blogs.nvidia.com/blog/nvidia-keynote-at-gtc-2025-ai-news-live-updates/",
+    "author": "NVIDIA Writers",
+    "publishedDate": "Tue, 25 Mar 2025 18:00:05 +0000",
+    "categories": "Corporate, Artificial Intelligence, Events, GTC 2025",
+    "image": "https://blogs.nvidia.com/wp-content/uploads/2025/03/trim-art-video.mp4",
+    "topic": "AI"
+  },
+  {
+    "blog": "NVIDIA Tech Blog",
+    "title": "NVIDIA NIM Microservices Now Available to Streamline Agentic Workflows on RTX AI PCs and Workstations",
+    "link": "https://blogs.nvidia.com/blog/rtx-ai-garage-nim-blueprints-g-assist/",
+    "author": "Jesse Clayton",
+    "publishedDate": "Tue, 25 Mar 2025 13:00:14 +0000",
+    "categories": "Generative AI, AI Agents, Artificial Intelligence, Conversational AI, GeForce, NVIDIA RTX, RTX AI Garage, RTX Mobile Workstations",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "NVIDIA Tech Blog",
+    "title": "‘Assassin’s Creed Shadows’ Emerges From the Mist on GeForce NOW",
+    "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-assassins-creed-shadows/",
+    "author": "GeForce NOW Community",
+    "publishedDate": "Thu, 20 Mar 2025 13:00:38 +0000",
+    "categories": "Gaming, Cloud Gaming, GeForce NOW",
+    "image": null,
+    "topic": "Cloud"
+  },
+  {
+    "blog": "Adobe Tech Blog",
+    "title": "Great moments in document history: Reimagining the Declaration of Independence as a PDF",
+    "link": "https://blog.adobe.com/en/publish/2022/07/01/great-moments-in-document-history-reimagining-the-declaration-of-independence-as-pdf",
+    "author": "Unknown",
+    "publishedDate": "2022-07-01T00:00:00.000Z",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Software engineering"
+  },
+  {
+    "blog": "Adobe Tech Blog",
+    "title": "Sakshi Sachdev on being fueled by challenges in the technical realm",
+    "link": "https://blog.adobe.com/en/publish/2022/06/30/sakshi-sachdev-fuelled-by-challenges-in-tech",
+    "author": "Unknown",
+    "publishedDate": "2022-06-30T00:00:00.000Z",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Software engineering"
+  },
+  {
+    "blog": "Adobe Tech Blog",
+    "title": "Using certified digital signatures on documents to increase trust in online information",
+    "link": "https://blog.adobe.com/en/publish/2022/06/30/using-certified-digital-signatures-on-documents-to-increase-trust-in-online-information",
+    "author": "Unknown",
+    "publishedDate": "2022-06-30T00:00:00.000Z",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Security"
+  },
+  {
+    "blog": "Salesforce Engineering",
+    "title": "AI-Driven Relationship Generation: Transforming Data Modeling in 50+ Tableau Next & Data Cloud Environments",
+    "link": "https://engineering.salesforce.com/ai-driven-relationship-generation-transforming-data-modeling-in-50-tableau-next-data-cloud-environments/",
+    "author": "Scott Nyberg",
+    "publishedDate": "Thu, 20 Mar 2025 18:37:48 +0000",
+    "categories": "Artificial Intelligence",
+    "image": null,
+    "topic": "Data science"
+  },
+  {
+    "blog": "Salesforce Engineering",
+    "title": "Building Agentforce for Flow: How AI Cut Execution Time by 99%",
+    "link": "https://engineering.salesforce.com/building-agentforce-for-flow-how-ai-cut-execution-time-by-99/",
+    "author": "Scott Nyberg",
+    "publishedDate": "Mon, 17 Mar 2025 04:54:00 +0000",
+    "categories": "Artificial Intelligence",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "Salesforce Engineering",
+    "title": "AI-Powered Personalization in Under 100ms: Optimizing Real-Time Decisioning at Scale",
+    "link": "https://engineering.salesforce.com/ai-powered-personalization-in-under-100ms-optimizing-real-time-decisioning-at-scale/",
+    "author": "Scott Nyberg",
+    "publishedDate": "Wed, 12 Mar 2025 16:13:47 +0000",
+    "categories": "Artificial Intelligence",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "Netflix Tech",
+    "title": "HDR10+ Now Streaming on Netflix",
+    "link": "https://netflixtechblog.com/hdr10-now-streaming-on-netflix-c9ab1f4bd72b?source=rss----2615bd06b42e---4",
+    "author": "Netflix Technology Blog",
+    "publishedDate": "Mon, 24 Mar 2025 18:39:15 GMT",
+    "categories": "innovation, netflix, streaming, hdr, av1",
+    "image": null,
+    "topic": "Software engineering"
+  },
+  {
+    "blog": "Netflix Tech",
+    "title": "Title Launch Observability at Netflix Scale",
+    "link": "https://netflixtechblog.com/title-launch-observability-at-netflix-scale-8efe69ebd653?source=rss----2615bd06b42e---4",
+    "author": "Netflix Technology Blog",
+    "publishedDate": "Wed, 05 Mar 2025 01:24:53 GMT",
+    "categories": "system-design-concepts, netflix, software-engineering, observability",
+    "image": null,
+    "topic": "Software engineering"
+  },
+  {
+    "blog": "Netflix Tech",
+    "title": "Introducing Impressions at Netflix",
+    "link": "https://netflixtechblog.com/introducing-impressions-at-netflix-e2b67c88c9fb?source=rss----2615bd06b42e---4",
+    "author": "Netflix Technology Blog",
+    "publishedDate": "Sat, 15 Feb 2025 01:13:20 GMT",
+    "categories": "distributed-systems, data, data-engineering",
+    "image": null,
+    "topic": "Data science"
+  },
+  {
+    "blog": "Red Hat Developer",
+    "title": "How to fine-tune LLMs with Kubeflow Training Operator",
+    "link": "https://developers.redhat.com/articles/2025/03/26/how-fine-tune-llms-kubeflow-training-operator",
+    "author": "Junpei Ishikawa",
+    "publishedDate": "Wed, 26 Mar 2025 13:00:00 +0000",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Cloud"
+  },
+  {
+    "blog": "Red Hat Developer",
+    "title": "Deliver generative AI at scale with NVIDIA NIM on OpenShift AI",
+    "link": "https://developers.redhat.com/articles/2025/03/26/generative-ai-nvidia-nim-openshift-ai",
+    "author": "Tomer Figenblat",
+    "publishedDate": "Wed, 26 Mar 2025 13:00:00 +0000",
+    "categories": "N/A",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "Red Hat Developer",
+    "title": "RHEL for Real Time: CPU throttling and risks",
+    "link": "https://developers.redhat.com/articles/2025/03/26/rhel-real-time-cpu-throttling-and-risks",
+    "author": "Dustin Black",
+    "publishedDate": "Wed, 26 Mar 2025 07:00:00 +0000",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Devops"
+  },
+  {
+    "blog": "Spotify Engineering",
+    "title": "An Insider’s Tips for Taking the Certified Backstage Associate (CBA) Exam",
+    "link": "https://engineering.atspotify.com/2025/03/certified-backstage-associate-exam-tips/",
+    "author": "Spotify Engineering",
+    "publishedDate": "Tue, 25 Mar 2025 10:00:00 +0000",
+    "categories": "Backstage, Developer Experience, Developer Tools, developer experience, engineering culture, engineering leadership",
+    "image": null,
+    "topic": "Devops"
+  },
+  {
+    "blog": "Spotify Engineering",
+    "title": "Building Confidence: A Case Study in How to Create Confidence Scores for GenAI Applications",
+    "link": "https://engineering.atspotify.com/2024/12/building-confidence-a-case-study-in-how-to-create-confidence-scores-for-genai-applications/",
+    "author": "Spotify Engineering",
+    "publishedDate": "Thu, 12 Dec 2024 17:56:03 +0000",
+    "categories": "Data, Data Science, Machine Learning",
+    "image": null,
+    "topic": "Data science"
+  },
+  {
+    "blog": "Spotify Engineering",
+    "title": "Congratulations to the Recipients of the 2024 Spotify FOSS Fund",
+    "link": "https://engineering.atspotify.com/2024/11/congratulations-to-the-recipients-of-the-2024-spotify-foss-fund/",
+    "author": "Spotify Engineering",
+    "publishedDate": "Mon, 25 Nov 2024 14:00:00 +0000",
+    "categories": "Developer Tools, Open Source, People, engineering leadership",
+    "image": null,
+    "topic": "Software engineering"
+  },
+  {
+    "blog": "Cloudflare Engineering",
+    "title": "Project Jengo for Sable — final winners!",
+    "link": "https://blog.cloudflare.com/project-jengo-for-sable-final-winners/",
+    "author": "Emily Terrell",
+    "publishedDate": "Wed, 26 Mar 2025 05:00:00 GMT",
+    "categories": "Jengo, Jengo Policy,  Legal Patents Sable",
+    "image": null,
+    "topic": "Software engineering"
+  },
+  {
+    "blog": "Cloudflare Engineering",
+    "title": "Build and deploy Remote Model Context Protocol (MCP) servers to Cloudflare",
+    "link": "https://blog.cloudflare.com/remote-model-context-protocol-servers-mcp/",
+    "author": "Brendan Irvine-Broque",
+    "publishedDate": "Tue, 25 Mar 2025 13:59:00 GMT",
+    "categories": "AI, Developers, MCP, Agents",
+    "image": null,
+    "topic": "Cloud"
+  },
+  {
+    "blog": "Cloudflare Engineering",
+    "title": "Open-sourcing OpenPubkey SSH (OPKSSH): integrating single sign-on with SSH",
+    "link": "https://blog.cloudflare.com/open-sourcing-openpubkey-ssh-opkssh-integrating-single-sign-on-with-ssh/",
+    "author": "Ethan Heilman",
+    "publishedDate": "Tue, 25 Mar 2025 13:00:00 GMT",
+    "categories": "Open Source, SSH, Single Sign On (SSO), Cryptography, Authentication",
+    "image": null,
+    "topic": "Security"
+  },
+  {
+    "blog": "Slack Engineering",
+    "title": "How we built enterprise search to be secure and private",
+    "link": "https://slack.engineering/how-we-built-enterprise-search-to-be-secure-and-private/",
+    "author": "Ian Hoffman",
+    "publishedDate": "Fri, 07 Mar 2025 01:14:37 +0000",
+    "categories": "Uncategorized",
+    "image": null,
+    "topic": "Software engineering"
+  },
+  {
+    "blog": "Slack Engineering",
+    "title": "Automated Accessibility Testing at Slack",
+    "link": "https://slack.engineering/automated-accessibility-testing-at-slack/",
+    "author": "nstormann",
+    "publishedDate": "Tue, 07 Jan 2025 20:46:20 +0000",
+    "categories": "Uncategorized, a11y, accessibility, automation-testing, testing",
+    "image": null,
+    "topic": "Software engineering"
+  },
+  {
+    "blog": "Slack Engineering",
+    "title": "Migration Automation: Easing the Jenkins → GHA shift with help from AI",
+    "link": "https://slack.engineering/migration-automation-easing-the-jenkins-%e2%86%92-gha-shift-with-help-from-ai/",
+    "author": "Zhengyu Shen",
+    "publishedDate": "Mon, 16 Dec 2024 09:00:03 +0000",
+    "categories": "Uncategorized, ci-cd, devops, devtools, machine-learning",
+    "image": null,
+    "topic": "Devops"
+  },
+  {
+    "blog": "GitHub Blog",
+    "title": "Mastering GitHub Copilot: When to use AI agent mode",
+    "link": "https://github.blog/ai-and-ml/github-copilot/mastering-github-copilot-when-to-use-ai-agent-mode/",
+    "author": "Andrea Griffiths",
+    "publishedDate": "Tue, 25 Mar 2025 16:00:15 +0000",
+    "categories": "AI & ML, Developer skills, GitHub, GitHub Copilot, agent mode, Copilot Edits, VS Code",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "GitHub Blog",
+    "title": "A maintainer’s guide to vulnerability disclosure: GitHub tools to make it simple",
+    "link": "https://github.blog/security/vulnerability-research/a-maintainers-guide-to-vulnerability-disclosure-github-tools-to-make-it-simple/",
+    "author": "Nancy Gariché",
+    "publishedDate": "Mon, 24 Mar 2025 16:00:33 +0000",
+    "categories": "Security, Supply chain security, Vulnerability research, CVE integration, cybersecurity, GitHub Security Lab, GitHub Security Tools, open source security, private vulnerability reporting, security advisories, vulnerability disclosure",
+    "image": null,
+    "topic": "Security"
+  },
+  {
+    "blog": "GitHub Blog",
+    "title": "World Water Day: how GitHub Copilot is helping bring clean water to communities",
+    "link": "https://github.blog/open-source/world-water-day-how-github-copilot-is-helping-bring-clean-water-to-communities/",
+    "author": "Paull Young",
+    "publishedDate": "Thu, 20 Mar 2025 16:00:37 +0000",
+    "categories": "Open Source, community, social impact",
+    "image": null,
+    "topic": "Software engineering"
+  },
+  {
+    "blog": "Etsy Engineering",
+    "title": "Adopting Jetpack Compose for Etsy’s Android App",
+    "link": "https://www.etsy.com/codeascraft/adopting-jetpack-compose-for-etsy39s-android-app?utm_source=OpenGraph&utm_medium=PageTools&utm_campaign=Share",
+    "author": "John Kalmi",
+    "publishedDate": "Tue, 28 Jan 2025 10:25:11 -0500",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Mobile"
+  },
+  {
+    "blog": "Etsy Engineering",
+    "title": "Machine Learning in Content Moderation at Etsy",
+    "link": "https://www.etsy.com/codeascraft/machine-learning-in-content-moderation-at-etsy?utm_source=OpenGraph&utm_medium=PageTools&utm_campaign=Share",
+    "author": "David Azcona",
+    "publishedDate": "Tue, 6 Aug 2024 07:15:03 -0400",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Data science"
+  },
+  {
+    "blog": "Etsy Engineering",
+    "title": "Enhancing Cloud Usage Forecasting, Monitoring & Optimizing",
+    "link": "https://www.etsy.com/codeascraft/enhancing-cloud-usage-forecasting-monitoring--optimizing?utm_source=OpenGraph&utm_medium=PageTools&utm_campaign=Share",
+    "author": "Anthony Tambasco",
+    "publishedDate": "Mon, 17 Jun 2024 09:58:16 -0400",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Cloud"
+  },
+  {
+    "blog": "Lyft Engineering",
+    "title": "FacetController: How we made infrastructure changes at Lyft simple",
+    "link": "https://eng.lyft.com/facetcontroller-how-we-made-infrastructure-changes-at-lyft-simple-dab49f5b27c7?source=rss----25cd379abb8---4",
+    "author": "Miguel Molina",
+    "publishedDate": "Mon, 24 Feb 2025 15:48:48 GMT",
+    "categories": "kubernetes, deployment, k8s, infrastructure",
+    "image": null,
+    "topic": "Devops"
+  },
+  {
+    "blog": "Lyft Engineering",
+    "title": "Using Marketplace Marginal Values to Address Interference Bias",
+    "link": "https://eng.lyft.com/using-marketplace-marginal-values-to-address-interference-bias-a11aff6e670f?source=rss----25cd379abb8---4",
+    "author": "Shima Nassiri",
+    "publishedDate": "Mon, 27 Jan 2025 18:49:50 GMT",
+    "categories": "interference, rideshare, network-effect, experimentation, marketplaces",
+    "image": null,
+    "topic": "Data science"
+  },
+  {
+    "blog": "Lyft Engineering",
+    "title": "Cartography joins the CNCF",
+    "link": "https://eng.lyft.com/cartography-joins-the-cncf-6f6b7be099a7?source=rss----25cd379abb8---4",
+    "author": "Alex Chantavy",
+    "publishedDate": "Wed, 18 Dec 2024 17:20:44 GMT",
+    "categories": "software-engineering, security, open-source",
+    "image": null,
+    "topic": "Cloud"
+  },
+  {
+    "blog": "Mozilla Hacks",
+    "title": "Improving Firefox Stability in the Enterprise by Reducing DLL Injection",
+    "link": "https://hacks.mozilla.org/2025/03/improving-firefox-stability-in-the-enterprise-by-reducing-dll-injection/",
+    "author": "Haik Aftandilian",
+    "publishedDate": "Tue, 25 Mar 2025 18:31:16 +0000",
+    "categories": "Enterprise, Feature, Firefox",
+    "image": null,
+    "topic": "Security"
+  },
+  {
+    "blog": "Mozilla Hacks",
+    "title": "Launching Interop 2025",
+    "link": "https://hacks.mozilla.org/2025/02/interop-2025/",
+    "author": "James Graham",
+    "publishedDate": "Thu, 13 Feb 2025 16:59:13 +0000",
+    "categories": "Featured Article, Firefox, Web Developers, Accessibility, browsers, firefox, interop, interoperability, storage, WebRTC",
+    "image": null,
+    "topic": "Frontend"
+  },
+  {
+    "blog": "Mozilla Hacks",
+    "title": "Introducing Uniffi for React Native: Rust-Powered Turbo Modules",
+    "link": "https://hacks.mozilla.org/2024/12/introducing-uniffi-for-react-native-rust-powered-turbo-modules/",
+    "author": "Mark Mayo",
+    "publishedDate": "Wed, 04 Dec 2024 19:38:01 +0000",
+    "categories": "Developer Tools, Featured Article, c++, firefox, react, rust",
+    "image": null,
+    "topic": "Mobile"
+  },
+  {
+    "blog": "Android Developers",
+    "title": "Strengthening Our App Ecosystem: Enhanced Tools for Secure & Efficient Development",
+    "link": "http://android-developers.googleblog.com/2025/03/keeping-google-play-safe.html",
+    "author": "Unknown",
+    "publishedDate": "2025-03-25T17:00:00.000Z",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Mobile"
+  },
+  {
+    "blog": "Android Developers",
+    "title": "#WeArePlay | How Memory Lane Games helps people with dementia",
+    "link": "http://android-developers.googleblog.com/2025/03/weareplay-how-memory-lane-games-helps-people-with-dementia.html",
+    "author": "Unknown",
+    "publishedDate": "2025-03-24T19:00:00.000Z",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Mobile"
+  },
+  {
+    "blog": "Android Developers",
+    "title": "The Third Beta of Android 16",
+    "link": "http://android-developers.googleblog.com/2025/03/the-third-beta-of-android-16.html",
+    "author": "Unknown",
+    "publishedDate": "2025-03-13T18:00:00.000Z",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Mobile"
+  },
+  {
+    "blog": "Python Software Foundation",
+    "title": "PSF Distinguished Service Award Granted to Thomas Wouters",
+    "link": "https://pyfound.blogspot.com/2025/03/dsa-thomas-wouters.html",
+    "author": "Unknown",
+    "publishedDate": "2025-03-12T15:32:00.002Z",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Software engineering"
+  },
+  {
+    "blog": "Python Software Foundation",
+    "title": "PSF Distinguished Service Award Granted to Van Lindberg",
+    "link": "https://pyfound.blogspot.com/2025/03/dsa-van-lindberg.html",
+    "author": "Unknown",
+    "publishedDate": "2025-03-11T15:53:00.000Z",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Software engineering"
+  },
+  {
+    "blog": "Python Software Foundation",
+    "title": "PSF Distinguished Service Award Granted to Ewa Jodlowska",
+    "link": "https://pyfound.blogspot.com/2025/03/psf-dsa-ewa-jodlowska.html",
+    "author": "Unknown",
+    "publishedDate": "2025-03-06T13:40:00.000Z",
+    "categories": "N/A",
+    "image": null,
+    "topic": "Software engineering"
+  },
+  {
+    "blog": "DeepMind Blog",
+    "title": "Gemini 2.5: Our most intelligent AI model",
+    "link": "https://deepmind.google/discover/blog/gemini-2-5-our-most-intelligent-ai-model/",
+    "author": "Unknown",
+    "publishedDate": "Tue, 25 Mar 2025 17:00:36 +0000",
+    "categories": "N/A",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "DeepMind Blog",
+    "title": "Gemini Robotics brings AI into the physical world",
+    "link": "https://deepmind.google/discover/blog/gemini-robotics-brings-ai-into-the-physical-world/",
+    "author": "Unknown",
+    "publishedDate": "Wed, 12 Mar 2025 15:00:00 +0000",
+    "categories": "N/A",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "DeepMind Blog",
+    "title": "Experiment with Gemini 2.0 Flash native image generation",
+    "link": "https://deepmind.google/discover/blog/experiment-with-gemini-20-flash-native-image-generation/",
+    "author": "Unknown",
+    "publishedDate": "Wed, 12 Mar 2025 14:58:00 +0000",
+    "categories": "N/A",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "MIT Technology Review",
+    "title": "The Download: China’s empty data centers, and OpenAI’s new practical image generator",
+    "link": "https://www.technologyreview.com/2025/03/26/1113810/the-download-chinas-empty-data-centers-and-openais-new-practical-image-generator/",
+    "author": "Rhiannon Williams",
+    "publishedDate": "Wed, 26 Mar 2025 13:10:00 +0000",
+    "categories": "The Download",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "MIT Technology Review",
+    "title": "The AI Hype Index: DeepSeek mania, Israel’s spying tool, and cheating at chess",
+    "link": "https://www.technologyreview.com/2025/03/26/1113694/ai-hype-index-artificial-intelligence-openai-manus-doge/",
+    "author": "The Editors",
+    "publishedDate": "Wed, 26 Mar 2025 09:00:00 +0000",
+    "categories": "Artificial intelligence, AI, AI Hype Index, App",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "MIT Technology Review",
+    "title": "China built hundreds of AI data centers to catch the AI boom. Now many stand unused.",
+    "link": "https://www.technologyreview.com/2025/03/26/1113802/china-ai-data-centers-unused/",
+    "author": "Caiwei Chen",
+    "publishedDate": "Wed, 26 Mar 2025 09:00:00 +0000",
+    "categories": "Artificial intelligence, App",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "Stanford AI Blog",
+    "title": "LinkBERT: Improving Language Model Training with Document Link",
+    "link": "/blog/linkbert/",
+    "author": "Unknown",
+    "publishedDate": "Tue, 31 May 2022 00:00:00 -0700",
+    "categories": "N/A",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "Stanford AI Blog",
+    "title": "Stanford AI Lab Papers and Talks at ACL 2022",
+    "link": "/blog/acl-2022/",
+    "author": "Unknown",
+    "publishedDate": "Wed, 25 May 2022 00:00:00 -0700",
+    "categories": "N/A",
+    "image": null,
+    "topic": "AI"
+  },
+  {
+    "blog": "Stanford AI Blog",
+    "title": "Stanford AI Lab Papers and Talks at ICLR 2022",
+    "link": "/blog/iclr-2022/",
+    "author": "Unknown",
+    "publishedDate": "Mon, 25 Apr 2022 00:00:00 -0700",
+    "categories": "N/A",
+    "image": null,
+    "topic": "AI"
+  }
+]
