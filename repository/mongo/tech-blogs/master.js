@@ -40,13 +40,22 @@ module.exports = {
   },
   findByCategoryAndCompany: async function (searchParams) {
     try {
-        let query = {topic : searchParams.category};
+      let query = { topic: { $regex: new RegExp(`^${searchParams.category}$`, "i") } };
 
-        if(searchParams.company){
-            query = {"$and": [{topic : searchParams.category}, {blog : searchParams.company}]};
-        }
-        let response = await (await mongo.getDbConnection()).collection(collection).find(query).toArray();
-        return response; 
+      if (searchParams.company) {
+          query = { 
+              "$and": [
+                  { topic: { $regex: new RegExp(`^${searchParams.category}$`, "i") } }, 
+                  { blog: { $regex: new RegExp(`^${searchParams.company}$`, "i") } }
+              ] 
+          };
+      }
+      
+      let response = await (await mongo.getDbConnection())
+          .collection(collection)
+          .find(query)
+          .toArray();
+      return response;
     } catch (error) {
       console.error(error);
       throw error;

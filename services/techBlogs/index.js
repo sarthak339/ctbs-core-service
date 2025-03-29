@@ -204,6 +204,9 @@ module.exports = {
         blogs[blogName] = blogs[blogName] || [];
         blogs[blogName].push(blg);
       });
+      blogs = Object.fromEntries(
+        Object.entries(blogs).sort((a, b) => b[1].length - a[1].length)
+    );
       return blogs;
     } catch (error) {
       console.error(error);
