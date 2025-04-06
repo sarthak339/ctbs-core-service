@@ -40,21 +40,37 @@ module.exports = {
   },
   findByCategoryAndCompany: async function (searchParams) {
     try {
-      let query = { topic: { $regex: new RegExp(`^${searchParams.category}$`, "i") } };
+      let query = {
+        topic: { $regex: new RegExp(`^${searchParams.category}$`, "i") },
+      };
 
-      if (searchParams.company) {
-          query = { 
-              "$and": [
-                  { topic: { $regex: new RegExp(`^${searchParams.category}$`, "i") } }, 
-                  { blog: { $regex: new RegExp(`^${searchParams.company}$`, "i") } }
-              ] 
-          };
+      if (searchParams.company.toLowerCase() != "all") {
+        query = {
+          $and: [
+            {
+              topic: { $regex: new RegExp(`^${searchParams.category}$`, "i") },
+            },
+            { blog: { $regex: new RegExp(`^${searchParams.company}$`, "i") } },
+          ],
+        };
       }
-      
+
       let response = await (await mongo.getDbConnection())
-          .collection(collection)
-          .find(query)
-          .toArray();
+        .collection(collection)
+        .find(query)
+        .toArray();
+      return response;
+    } catch (error) {
+      console.error(error);
+      throw error;
+    }
+  },
+  findByCategory: async function (category) {
+    try {
+      let query = { topic: { $regex: new RegExp(`^${category}$`, "i") } };
+      let response = await (await mongo.getDbConnection())
+        .collection(collection)
+        .distinct("blog", query);
       return response;
     } catch (error) {
       console.error(error);

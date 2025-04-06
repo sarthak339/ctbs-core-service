@@ -15,7 +15,7 @@ const Mongo = {
         return dbConn;
     },
     ObjectID: ObjectId
-}
+}   
 Mongo.getDbConnection();
 async function init() {
     const client = new MongoClient(url, {
@@ -29,4 +29,4 @@ async function init() {
     console.log("initializing mongo client configs");
     return client;
 }
-module.exports = Mongo;
+module.exports = Mongo; 

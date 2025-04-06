@@ -3,6 +3,7 @@ const fs = require("fs");
 const utils = require("../../utils");
 const repo = require("../../repository");
 const puppeteer = require("puppeteer");
+const { JSDOM } = require("jsdom");
 
 const parser = new Parser({
   headers: {
@@ -25,10 +26,10 @@ const genAI = new GoogleGenerativeAI(API_KEY);
 async function fetchBlogArticles(blog) {
   try {
     console.log(`Fetching articles from: ${blog.name}`);
-    if (blog.name === "Uber") {
-      console.log("sarthak");
-    }
     const feed = await parser.parseURL(blog.url);
+    if (blog.url=="https://huggingface.co/blog/feed.xml"){
+      console.log(blog.url);
+    }
     return feed.items.slice(0, 3).map((item) => ({
       blog: blog.name,
       title: item.title,
@@ -114,6 +115,10 @@ async function categorizeArticles(articles) {
         allCategory
       );
       newArticles.push(articleWithTopic);
+      if(newArticles.length>=10){
+        await repo.mongo.techBlogs.master.bulkInsert(newArticles);
+        newArticles = [];
+      }
     }
   }
   if (newArticles.length === 0) {
@@ -125,32 +130,38 @@ async function categorizeArticles(articles) {
 }
 
 function parseRSS(xmlContent) {
-  const { JSDOM } = require("jsdom");
+  
   const dom = new JSDOM(xmlContent, { contentType: "text/xml" });
   const document = dom.window.document;
 
-  const items = [...document.querySelectorAll("item")].map((item) => ({
-    title: (item.querySelector("title")?.textContent || "No Title")
-      .replace(/\n/g, "")
-      .trim(),
-    link: (item.querySelector("link")?.textContent || "#")
-      .replace(/\n/g, "")
-      .trim(),
-    creator: (item.querySelector("dc\\:creator")?.textContent || "Unknown")
-      .replace(/\n/g, "")
-      .trim(),
-    pubDate: (item.querySelector("pubDate")?.textContent || "Unknown")
-      .replace(/\n/g, "")
-      .trim(),
-    categories: [...item.querySelectorAll("category")].map((cat) =>
-      cat.textContent.replace(/\n/g, "").trim()
-    ),
-    enclosure: {
-      url: (item.querySelector("enclosure")?.getAttribute("url") || "")
-        .replace(/\n/g, "")
-        .trim(),
-    },
-  }));
+  const items = [...document.querySelectorAll("item")].map((item) => {
+    const title = item.querySelector("title")?.textContent?.trim() || "No Title";
+    if(title=="Hugging Face - Blog"){
+      console.log(title); 
+    }
+    const link =
+      item.querySelector("link")?.textContent?.trim() ||
+      item.querySelector("guid")?.textContent?.trim() ||
+      item.querySelector("guid")?.getAttribute("isPermaLink") === "true"
+        ? item.querySelector("guid")?.textContent?.trim()
+        : "#";
+  
+    return {
+      title,
+      link,
+      creator:
+        item.querySelector("dc\\:creator")?.textContent?.trim() || "Unknown",
+      pubDate:
+        item.querySelector("pubDate")?.textContent?.trim() || "Unknown",
+      categories: [...item.querySelectorAll("category")].map((cat) =>
+        cat.textContent?.trim()
+      ),
+      enclosure: {
+        url: item.querySelector("enclosure")?.getAttribute("url") || "",
+      },
+    };
+  });
+  
 
   return { items };
 }
@@ -190,7 +201,7 @@ module.exports = {
   getBlogs: async function (req) {
     try {
       let category = req.query?.category || "AI";
-      let company = req.query?.company || null;
+      let company = req.query?.company || "all";
       let searchParams = {
         category: category,
         company: company,
@@ -204,6 +215,10 @@ module.exports = {
         blogs[blogName] = blogs[blogName] || [];
         blogs[blogName].push(blg);
       });
+
+      for (const blogName in blogs) {
+        blogs[blogName].sort((a, b) => new Date(b.publishedDate) - new Date(a.publishedDate));
+      }
       blogs = Object.fromEntries(
         Object.entries(blogs).sort((a, b) => b[1].length - a[1].length)
     );
@@ -259,5 +274,5 @@ module.exports = {
     }
 
     await browser.close();
-  },
+  }
 };

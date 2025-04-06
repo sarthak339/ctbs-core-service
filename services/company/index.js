@@ -55,10 +55,18 @@ module.exports = {
       throw error;
     }
   },
-  getcompanyList : async function(){
+  getcompanyList : async function(req){
     try{
-        let companyList = await repo.mongo.techBlogs.company.findAll();
+       let category = req.query?.category && req.query.category.toLowerCase()!="all"?req.query.category.toLowerCase() : "ai"; 
+       
+       if(category!=""){
+         var companyList = await repo.mongo.techBlogs.master.findByCategory(category); 
+         if(companyList.length>1) companyList.unshift('ALL')
+       }
+       else {
+        var companyList = await repo.mongo.techBlogs.company.findAll(category);
         companyList  = companyList.map(company=>company.name);
+       } 
         return companyList; 
     }catch(error){
         console.error(error);

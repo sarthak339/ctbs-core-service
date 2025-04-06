@@ -6,9 +6,9 @@ const cors = require("cors");
 app.use(
   cors({
     origin: process.env.CORS_PERMISSION_SEVER,
-    methods: ["GET", "POST", "PUT", "DELETE"], // Allowed request methods
-    allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers
-    credentials: true, // Allow cookies and authentication headers
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true,
   })
 );
 const router = express.Router();
@@ -19,6 +19,8 @@ const Controller = require('../controller')
 
 
 router.get("/api/fetch/blogs", Controller.techBlogs.fetchAllTechBlogs);
+
+// each time blog fetch 
 router.post("/api/fetch/blog", Controller.techBlogs.fetchOneTechBlogEachTime);
 router.get("/api/blogs", Controller.techBlogs.getBlogs);
 
@@ -26,10 +28,18 @@ router.get("/api/blogs", Controller.techBlogs.getBlogs);
 router.post("/api/company", Controller.company.addCompany);
 router.get("/api/company", Controller.company.getcompanyList);
 
+
 //category routes
 router.get("/api/category", Controller.category.getCategoryList);
 router.post("/api/category", Controller.category.addCategory);
 
+
+//daily tech news 
+// router.get('/api/daily/tech', Controller.techNews.dailyTechNews); 
+router.get("/api/fetch/tech/news", Controller.techNews.fetchTechNews);
+
+
+router.post("/api/feedback", Controller.feedback.addFeedback);
 
 
 module.exports = {
