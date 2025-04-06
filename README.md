@@ -1,3 +1,5 @@
+![Alt Text](images/centralize-tech-blog-system.png)
+
 Centralized Tech Blog Backend
 
 A backend system for aggregating and categorizing blog articles from major software companies. This system organizes content by topics such as AI, Software Engineering, Backend, DevOps, Cloud, and more.
