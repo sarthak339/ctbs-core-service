@@ -124,4 +124,25 @@ module.exports = {
       throw error;
     }
   },
+  getNews: async function (page, pageSize) {
+    try {
+      let data = {
+        content: [],
+        count: 0,
+      };
+      data.count = await repo.mongo.techBlogs.techNews.count();
+      if (data.count > 0) {
+        data.content = await repo.mongo.techBlogs.techNews.getNews(
+          page,
+          pageSize,
+          filter={}
+
+        );
+      }
+      return data;
+    } catch (error) {
+      console.error(error);
+      throw error;
+    }
+  },
 };
