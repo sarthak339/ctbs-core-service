@@ -36,10 +36,12 @@ router.post("/api/category", Controller.category.addCategory);
 
 //daily tech news 
 // router.get('/api/daily/tech', Controller.techNews.dailyTechNews); 
+// router.post("/api/add/tech/feed/url", Controller.techNews.addFeedUrl); 
 router.get("/api/fetch/tech/news", Controller.techNews.fetchTechNews);
 
 
 router.post("/api/feedback", Controller.feedback.addFeedback);
+
 
 
 module.exports = {

@@ -4,7 +4,7 @@ const utils = require("../../utils");
 const repo = require("../../repository");
 const puppeteer = require("puppeteer");
 const { JSDOM } = require("jsdom");
-
+const cron = require("node-cron");
 const parser = new Parser({
   headers: {
     "User-Agent":
@@ -27,7 +27,7 @@ async function fetchBlogArticles(blog) {
   try {
     console.log(`Fetching articles from: ${blog.name}`);
     const feed = await parser.parseURL(blog.url);
-    if (blog.url=="https://huggingface.co/blog/feed.xml"){
+    if (blog.url == "https://huggingface.co/blog/feed.xml") {
       console.log(blog.url);
     }
     return feed.items.slice(0, 3).map((item) => ({
@@ -115,7 +115,7 @@ async function categorizeArticles(articles) {
         allCategory
       );
       newArticles.push(articleWithTopic);
-      if(newArticles.length>=10){
+      if (newArticles.length >= 10) {
         await repo.mongo.techBlogs.master.bulkInsert(newArticles);
         newArticles = [];
       }
@@ -130,14 +130,14 @@ async function categorizeArticles(articles) {
 }
 
 function parseRSS(xmlContent) {
-  
   const dom = new JSDOM(xmlContent, { contentType: "text/xml" });
   const document = dom.window.document;
 
   const items = [...document.querySelectorAll("item")].map((item) => {
-    const title = item.querySelector("title")?.textContent?.trim() || "No Title";
-    if(title=="Hugging Face - Blog"){
-      console.log(title); 
+    const title =
+      item.querySelector("title")?.textContent?.trim() || "No Title";
+    if (title == "Hugging Face - Blog") {
+      console.log(title);
     }
     const link =
       item.querySelector("link")?.textContent?.trim() ||
@@ -145,14 +145,13 @@ function parseRSS(xmlContent) {
       item.querySelector("guid")?.getAttribute("isPermaLink") === "true"
         ? item.querySelector("guid")?.textContent?.trim()
         : "#";
-  
+
     return {
       title,
       link,
       creator:
         item.querySelector("dc\\:creator")?.textContent?.trim() || "Unknown",
-      pubDate:
-        item.querySelector("pubDate")?.textContent?.trim() || "Unknown",
+      pubDate: item.querySelector("pubDate")?.textContent?.trim() || "Unknown",
       categories: [...item.querySelectorAll("category")].map((cat) =>
         cat.textContent?.trim()
       ),
@@ -161,13 +160,12 @@ function parseRSS(xmlContent) {
       },
     };
   });
-  
 
   return { items };
 }
 
 module.exports = {
-  fetchAllTechBlogs: async function (req) {
+  fetchAllTechBlogs: async function () {
     try {
       const techBlogs = await repo.mongo.techBlogs.company.findAll();
       const batchSize = 10;
@@ -217,11 +215,13 @@ module.exports = {
       });
 
       for (const blogName in blogs) {
-        blogs[blogName].sort((a, b) => new Date(b.publishedDate) - new Date(a.publishedDate));
+        blogs[blogName].sort(
+          (a, b) => new Date(b.publishedDate) - new Date(a.publishedDate)
+        );
       }
       blogs = Object.fromEntries(
         Object.entries(blogs).sort((a, b) => b[1].length - a[1].length)
-    );
+      );
       return blogs;
     } catch (error) {
       console.error(error);
@@ -274,5 +274,17 @@ module.exports = {
     }
 
     await browser.close();
-  }
+  },
+  scheduleFetchBlogs: async function () {
+    try {
+      console.log("intialize cron job for fetching blogs every day");
+      cron.schedule("0 9 * * *", async () => {
+        console.log("Fetching blogs every day at midnight...");
+        await this.fetchAllTechBlogs();
+      });
+    } catch (error) {
+      console.error(error);
+      throw error;
+    }
+  },
 };

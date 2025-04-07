@@ -11,7 +11,7 @@ module.exports = {
          }
 
          let response = await service.feedback.addFeedBack(req);
-         return res.status(200).json({response});
+         return res.status(response.status).json(response);
         }catch(error){
             console.error(error); 
             return res.status(500).json({error:"INTERNAL SERVER ERROR"}); 

@@ -5,4 +5,5 @@ module.exports = {
     category:require('./category'), 
     company:require('./company'),
     feedback:require('./feedBack'),
+    techNews : require("./techNews")
 }
