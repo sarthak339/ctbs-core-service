@@ -11,4 +11,4 @@ RUN pm2 set pm2-logrotate:rotateInterval 0 0 * * *
 RUN pm2 set pm2-logrotate:rotateModule true
 RUN pm2 set pm2-logrotate:workerInterval 10
 CMD pm2 start process.yml && tail -f /dev/null
-EXPOSE 8080
+EXPOSE 8080  

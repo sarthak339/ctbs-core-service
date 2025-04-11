@@ -39,12 +39,11 @@ module.exports = {
     try { 
     const skip = (page - 1) * pageSize;
     const data = await (await mongo.getDbConnection()).collection(collection).find(filter, {projection:{_id:0}})
-      .sort({ time: -1 }) // Sort by 'time' descending
+      .sort({ time: -1 }) 
       .skip(skip)
       .limit(pageSize)
       .toArray();
     return data;
-        return result;
       } catch (error) {
         throw error;
       }
