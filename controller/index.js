@@ -8,4 +8,6 @@ module.exports = {
     category: require('./category'), 
     techNews : require('./techNews'),
     feedback:require('./feedback'),
+    user : require('./user'),
+    auth : require('./auth')
 }

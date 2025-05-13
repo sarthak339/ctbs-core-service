@@ -1,10 +1,9 @@
-
-
-
 module.exports = {
     techBlogs:require('./techBlogs'), 
     company:require('./company'),
     category:require('./category'), 
     techNews:require('./techNews'),
-    feedback:require('./feeback')
+    feedback:require('./feeback'), 
+    user : require('./user'), 
+    auth : require('./auth')
 }

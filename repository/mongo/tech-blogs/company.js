@@ -1,3 +1,4 @@
+const { errorMonitor } = require('node-cron/src/scheduled-task.js');
 const mongo = require('./mongo.js');
 const collection = 'company';
 
@@ -38,5 +39,6 @@ module.exports = {
             console.error(error);
             throw error;
         }
-    }
+    }, 
+    
 }
