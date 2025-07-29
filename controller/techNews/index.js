@@ -31,5 +31,17 @@ module.exports = {
             console.error(error); 
             return res.status(500).json({error:"INTERNAL SERVER ERROR"}); 
         }
+    }, 
+    getLatestNews : async function(req, res, next){
+        try{
+            let response = await service.techNews.getLatestNews(req);
+            if(response && Object.keys(response).length>0){
+                return res.status(200).json({result:response})
+            }
+            return res.status(204).json({error:"No News found"})
+        }catch(error){
+            console.error(error); 
+            return res.status(500).json({error:"INTERNAL SERVER ERROR"}); 
+        }
     }
 }

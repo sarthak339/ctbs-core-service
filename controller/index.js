@@ -1,4 +1,4 @@
-const { feed } = require('../utils');
+
 
 
 
@@ -8,4 +8,5 @@ module.exports = {
     category: require('./category'), 
     techNews : require('./techNews'),
     feedback:require('./feedback'),
+    user : require('./user')
 }

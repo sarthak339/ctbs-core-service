@@ -4,6 +4,18 @@ const config = require("../config");
 const Parser = require("rss-parser");
 const parser = new Parser();
 const cron = require("node-cron");
+let isLatestNewsInserted = false;
+
+
+async function insertLatestNews(latestNews) {
+  try{
+      await repo.mongo.techBlogs.latestNews.clearCollection();
+      await repo.mongo.techBlogs.latestNews.bulkInsert(latestNews);
+  }catch(error){
+    console.error("Error inserting latest news:", error);
+    throw error;
+  }
+}
 
 function extractImage(entry) {
   if (entry.enclosure?.url) return entry.enclosure.url;
@@ -73,6 +85,7 @@ const praseFeed = async function (feeds) {
 
 module.exports = {
   dailyTechNews: async function (req) {
+
     try {
       const feeds = utils.feed.newsFeed;
       const feedContent = await praseFeed(feeds);
@@ -80,12 +93,19 @@ module.exports = {
         .sort((a, b) => new Date(b.time) - new Date(a.time))
         .slice(0, 5);
       let count = 0;
+      let latestNews = [];
       for (const news of latest) {
         const isNewsExist = await repo.mongo.techBlogs.techNews.findByLink(
           news
         );
         if (!isNewsExist) {
           count += 1;
+          latestNews.push(news);
+          if(latestNews.length >= 4  && !isLatestNewsInserted) {
+            await insertLatestNews(latestNews);
+            isLatestNewsInserted = true;
+            latestNews = [];
+          }
           await repo.mongo.techBlogs.techNews.insert([news]);
         }
       }
@@ -145,4 +165,16 @@ module.exports = {
       throw error;
     }
   },
+  getLatestNews : async function(req){
+    try{
+      let response = await repo.mongo.techBlogs.latestNews.getLatestNews();
+      if (response && response.length > 0) {
+        return response;
+      }
+      return [];
+    }catch(error){
+      console.error(error);
+      throw error;
+    }
+  }
 };

@@ -23,6 +23,10 @@ router.get("/api/fetch/blogs", Controller.techBlogs.fetchAllTechBlogs);
 // each time blog fetch 
 router.post("/api/fetch/blog", Controller.techBlogs.fetchOneTechBlogEachTime);
 router.get("/api/blogs", Controller.techBlogs.getBlogs);
+router.get("/api/search/blogs", Controller.techBlogs.searchBlogs);
+router.get("/api/latest/blogs", Controller.techBlogs.getLatestBlogs);
+router.get("/api/latest/news", Controller.techNews.getLatestNews); 
+
 
 //company routes 
 router.post("/api/company", Controller.company.addCompany);
@@ -32,6 +36,13 @@ router.get("/api/company", Controller.company.getcompanyList);
 //category routes
 router.get("/api/category", Controller.category.getCategoryList);
 router.post("/api/category", Controller.category.addCategory);
+
+
+//suscribed users 
+router.post("/api/subscribe", Controller.user.addSubscriber);
+
+
+
 
 
 //daily tech news 

@@ -5,5 +5,9 @@ module.exports = {
     category:require('./category'), 
     company:require('./company'),
     feedback:require('./feedBack'),
-    techNews : require("./techNews")
+    techNews : require("./techNews"), 
+    latestBlogs : require('./latestBlogs'), 
+    latestNews : require("./latestNews"), 
+    user : require('./user'),
+
 }

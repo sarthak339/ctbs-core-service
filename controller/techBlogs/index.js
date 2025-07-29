@@ -30,5 +30,29 @@ module.exports = {
             return res.status(500).json({error:"INTERNAL SERVER ERROR"}); 
         }
     }, 
+    searchBlogs : async function(req, res, next){
+        try{
+            let response = await services.techBlogs.searchBlogs(req); 
+            if(response && Object.keys(response).length>0){
+                return res.status(200).json({result:response})
+            }
+            return res.status(204).json({error:"No Blogs found"})
+        }catch(error){
+            console.error(error); 
+            return res.status(500).json({error:"INTERNAL SERVER ERROR"}); 
+        }
+    }, 
+    getLatestBlogs : async function(req, res, next){
+        try{
+            let response = await services.techBlogs.getLatestBlogs(req); 
+            if(response && Object.keys(response).length>0){
+                return res.status(200).json({result:response})
+            }
+            return res.status(204).json({error:"No Blogs found"})
+        }catch(error){
+            console.error(error); 
+            return res.status(500).json({error:"INTERNAL SERVER ERROR"}); 
+        }
+    }
    
 }

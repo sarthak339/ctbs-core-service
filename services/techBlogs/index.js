@@ -5,6 +5,7 @@ const repo = require("../../repository");
 const puppeteer = require("puppeteer");
 const { JSDOM } = require("jsdom");
 const cron = require("node-cron");
+let isLatestArticleInserted = false;
 const parser = new Parser({
   headers: {
     "User-Agent":
@@ -19,6 +20,7 @@ const BASE_URL_OF_ADOBLE_BLOGS = "https://blog.adobe.com";
 // gemini setup
 
 const { GoogleGenerativeAI } = require("@google/generative-ai");
+const { tryWrapperForImpl } = require("jsdom/lib/jsdom/living/generated/utils");
 const API_KEY = process.env.GENERATIVE_API_KEY;
 
 const genAI = new GoogleGenerativeAI(API_KEY);
@@ -38,7 +40,7 @@ async function fetchBlogArticles(blog) {
           ? BASE_URL_OF_ADOBLE_BLOGS + item.link
           : item.link,
       author: item.creator || "Unknown",
-      publishedDate: item.pubDate,
+      publishedDate: new Date(item.pubDate),
       categories: item.categories ? item.categories.join(", ") : "N/A",
       image: item.enclosure?.url || null,
     }));
@@ -102,6 +104,17 @@ async function articleAlreadyExist(article) {
   }
 }
 
+async function insertLatestBLogs(newArticles) {
+  try {
+    await repo.mongo.techBlogs.latestBlogs.clearCollection();
+    await repo.mongo.techBlogs.latestBlogs.bulkInsert(newArticles);
+    return;
+  } catch (error) {
+    console.error(error);
+    throw error;
+  }
+}
+
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function categorizeArticles(articles) {
@@ -115,6 +128,15 @@ async function categorizeArticles(articles) {
         allCategory
       );
       newArticles.push(articleWithTopic);
+
+      if (newArticles.length >= 4 && !isLatestArticleInserted) {
+        await insertLatestBLogs(newArticles);
+        console.log(
+          `✅ Inserted ${newArticles.length} articles into latest blogs.`
+        );
+        isLatestArticleInserted = true;
+      }
+
       if (newArticles.length >= 10) {
         await repo.mongo.techBlogs.master.bulkInsert(newArticles);
         newArticles = [];
@@ -282,6 +304,33 @@ module.exports = {
         console.log("Fetching blogs every day at midnight...");
         await this.fetchAllTechBlogs();
       });
+    } catch (error) {
+      console.error(error);
+      throw error;
+    }
+  },
+  searchBlogs: async function (req) {
+    try {
+      let searchTerm = req.query?.search || "";
+      let result = await repo.mongo.techBlogs.master.searchInALLFields(
+        searchTerm
+      );
+      if (result && Object.keys(result).length > 0) {
+        return result;
+      }
+      return [];
+    } catch (error) {
+      console.error(error);
+      throw error;
+    }
+  },
+  getLatestBlogs: async function (req) {
+    try {
+      let result = await repo.mongo.techBlogs.latestBlogs.getLatestBlogs();
+      if (result && Object.keys(result).length > 0) {
+        return result;
+      }
+      return [];
     } catch (error) {
       console.error(error);
       throw error;
