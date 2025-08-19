@@ -4,7 +4,7 @@ const config = require("../config");
 const Parser = require("rss-parser");
 const parser = new Parser();
 const cron = require("node-cron");
-let isLatestNewsInserted = false;
+
 
 
 async function insertLatestNews(latestNews) {
@@ -92,6 +92,7 @@ module.exports = {
       const latest = feedContent
         .sort((a, b) => new Date(b.time) - new Date(a.time))
         .slice(0, 5);
+        let isLatestNewsInserted = false;
       let count = 0;
       let latestNews = [];
       for (const news of latest) {
