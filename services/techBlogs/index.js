@@ -50,6 +50,11 @@ async function fetchBlogArticles(blog) {
   }
 }
 
+function getRetryTimeSeconds(errorStr) {
+  const match = errorStr.match(/retry in ([\d.]+)s/i);
+  return match ? Number(match[1]) : null;
+}
+
 async function categorizeArticleByCategory(article, allCategory) {
   const prompt = `
       Categorize the following blog into one of these categories: 
@@ -72,7 +77,6 @@ async function categorizeArticleByCategory(article, allCategory) {
     const result = await model.generateContent(prompt);
     const response = await result.response;
     const topic = response.text().trim().replace(/"/g, ""); // Ensure clean output
-    console.log(topic);
     const isCategoryExist = allCategory.find(
       (doc) => doc.title.toLowerCase() === topic.toLowerCase()
     );
@@ -90,6 +94,11 @@ async function categorizeArticleByCategory(article, allCategory) {
     return article;
   } catch (error) {
     console.error("❌ Error categorizing blog:", error.message);
+    const retryTime = getRetryTimeSeconds(error.message);
+    if(retryTime){
+      await delay((retryTime * 1000)+ 2000); // extra 2 seconds buffer
+      return await categorizeArticleByCategory(article, allCategory);
+    }
     article.topic = "Uncategorized";
   }
 }
@@ -137,9 +146,10 @@ async function categorizeArticles(articles) {
         isLatestArticleInserted = true;
       }
 
-      if (newArticles.length >= 10) {
+      if (newArticles.length > 12) {
         await repo.mongo.techBlogs.master.bulkInsert(newArticles);
         newArticles = [];
+        await delay(23000);
       }
     }
   }

@@ -8,7 +8,7 @@ async function init() {
     await require("./services/techBlogs").scheduleFetchBlogs();
     await require("./services/techNews").schdeuleFetchTechNews();
     // await require('./services/techNews').dailyTechNews();
-    // await require('./services/techBlogs').fetchAllTechBlogs();
+    await require('./services/techBlogs').fetchAllTechBlogs();
   } catch (error) {
     console.error(`failed to start the server , error: ${error}`);
   }
